@@ -11,7 +11,7 @@ app.get('/', (req,res)=>
 }
 )
 
-mongoose.connect("mongodb+srv://projectautowala:asdfghjkl@cluster0.dpkfkmx.mongodb.net/?retryWrites=true&w=majority", 
+mongoose.connect("url", 
 
 {  useNewUrlParser: true }, 
 function(err) {
